@@ -1,74 +1,74 @@
 body {
-    background-color: white;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    margin: 0;
+  background-color: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
 }
 
 main {
-    width: 804px;
-    margin: 0 auto;
-    grid-template-columns: 132px 350px auto;
-    display: grid;
-    gap: 34px;
-    margin-top: 180px;
+  width: 804px;
+  margin: 0 auto;
+  grid-template-columns: 132px 350px auto;
+  display: grid;
+  gap: 34px;
+  margin-top: 180px;
 }
 
 main div#logo {
-    display: grid;
-    place-items: center;
-    border-right: 1px dashed #ccc;
+  display: grid;
+  place-items: center;
+  border-right: 1px dashed #ccc;
 }
 main div#logo h1 {
-    font-size: 1.8rem;
-    font-weight: 100;
-    margin: 0;
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin: 0;
 }
 
 main div#picture img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
 main div#story {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 main div#story h2,
 main div#story p {
-    margin: 0;
+  margin: 0;
 }
 
 main div#story article {
-    flex-grow: 1;
-    margin-top: 160px;
+  flex-grow: 1;
+  margin-top: 160px;
 }
 
 main div#story article h2 {
-    color: rgb(228, 228, 228);
-    font-size: 2rem;
-    font-weight: lighter;
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 1.5rem;
+  color: rgb(228, 228, 228);
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 1.5rem;
 }
 
 main div#story article p.quote {
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 1rem;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 1rem;
 }
 
 main div#story article p.author {
-    color: #999;
+  color: #999;
 }
 
 main div#story article p.year {
-    color: #999;
-    font-size: 0.8rem;
+  color: #999;
+  font-size: 0.8rem;
 }
 
 main div#story p.copy {
-    color: #e0e0e0;
-    font-size: 0.8rem;
+  color: #e0e0e0;
+  font-size: 0.8rem;
 }
